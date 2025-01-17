@@ -2,5 +2,46 @@
 
 /* Use CSS selectors and rules to style your portfolio page */
 body {
-  font-family: sans-serif;
-}
+        background-color: black;
+        font-family: 'Jacques Francois', serif;
+        color: gold;
+        margin: 0;
+        padding: 0;
+      }
+      h1, h3 {
+        color: gold;
+        text-align: center;
+      }
+      p {
+        margin: 0 auto;
+        padding: 0.5rem;
+        max-width: 800px;
+        line-height: 1.6;
+      }
+      header {
+        background-color: #333;
+        padding: 1rem 0;
+        text-align: center;
+        color: white;
+      }
+      section {
+        margin: 2rem auto;
+        padding: 1rem;
+        max-width: 900px;
+        background: rgba(255, 215, 0, 0.1);
+        border-radius: 8px;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 2rem;
+      }
+      a {
+        color: gold;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
