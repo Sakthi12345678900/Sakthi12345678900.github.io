@@ -1,70 +1,104 @@
 <!DOCTYPE html>
-<html>
-  <!-- This is an HTML comment. Comments are ignored by the browser and do not appear on the document. -->
-  <!-- An HTML page has a <head> and a <body>. -->
-  
-  <!-- Information in the <head> element does not appear on the document. This element is usually used to store information used by the document. -->
+<html lang="en">
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap" rel="stylesheet">
-    <style> 
-    body {background-color: black;}
-    h1   {color: gold;}
-    h3   {color: gold;}
-    p    {color: gold;}
-    </style>
-    <title>Sakthi Aradhana</title>
-    <!-- [meta tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta) contain information about the page, which cannot be represented by other tags -->
+    <!-- Metadata and links to resources -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="The portfolio of a JC student"> <!-- search engine description used by Google. Edit this. -->
-    <meta name="keyword" content="portfolio">  <!-- search engine tags used by Google. Add more of your own. -->
-    
-    <!-- If you'd like nicer "default" theming for your portfolio, consider using a baseline css stylesheet e.g. https://newcss.net/ -->
-    <link rel="stylesheet" href="styles.css">  <!-- External CSS for defining your own stylesheet -->
+    <meta name="description" content="Portfolio of Sakthi Aradhana, a JC student interested in law and politics." />
+    <meta name="keywords" content="portfolio, law, politics, student, leadership, NY Legal Lions" />
+    <meta name="author" content="Sakthi Aradhana" />
+
+    <!-- Title and external fonts/styles -->
+    <title>Sakthi Aradhana | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet">
+
+    <!-- Internal stylesheet -->
+    <style> 
+      body {
+        background-color: black;
+        font-family: 'Jacques Francois', serif;
+        color: gold;
+        margin: 0;
+        padding: 0;
+      }
+      h1, h3 {
+        color: gold;
+        text-align: center;
+      }
+      p {
+        margin: 0 auto;
+        padding: 0.5rem;
+        max-width: 800px;
+        line-height: 1.6;
+      }
+      header {
+        background-color: #333;
+        padding: 1rem 0;
+        text-align: center;
+        color: white;
+      }
+      section {
+        margin: 2rem auto;
+        padding: 1rem;
+        max-width: 900px;
+        background: rgba(255, 215, 0, 0.1);
+        border-radius: 8px;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 2rem;
+      }
+      a {
+        color: gold;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
   
-  <!-- The <body> tag is where the visible content goes. -->
-  <!-- See https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories for tips on organising content elements. -->
   <body>
-    <!--
-    The (optional) <header> HTML element represents introductory content that would usually be shown at the top of every page in a group of pages.
-    For example, a logo or top banner, with a navigation bar.
-    -->
-    <header></header>
+    <header>
+      <h1>Welcome to Sakthi Aradhana's Portfolio</h1>
+    </header>
 
-    <!--
-    The (optional) <section> element is used to encapsulate standalone sections of content.
-    It makes sense to use them for a portfolio, but perhaps not for an essay.
-    -->
-    <section>
-      <h1>Sakthi Aradhana / About Me</h1>
-      <p>Student @ NYJC intrested in law and politics. Founder and president of the law society (NY Legal Lions), vice-president of History and Current Affairs Society. Ex Art elective programme student. Part of Red Cross Youth for 5 years</p>
+    <section id="about">
+      <h1>About Me</h1>
+      <p>
+        I am a student at NYJC with a keen interest in law and politics. I am the founder and president of the law society <strong>NY Legal Lions</strong> and the vice-president of the <strong>History and Current Affairs Society</strong>. I have also been an art elective programme student and have participated in Red Cross Youth for five years.
+      </p>
     </section>
 
-    <section>
+    <section id="ny-legal-lions">
       <h3>NY Legal Lions</h3>
-      
-      <!-- Your organised portfolio content goes here. -->
-      <!--
-      Use Google / ChatGPT to determine which is the most semantically appropriate element tag to use for each type of content:
-      paragraph text, bulleted/numbered lists, tables, images, separators, ...
-      -->
+      <p>
+        As the founder and president of NY Legal Lions, I aim to inspire my peers to understand and engage with the legal system through events, debates, and guest speaker sessions.
+      </p>
     </section>
+
+    <section id="history-society">
       <h3>History and Current Affairs Society</h3>
+      <p>
+        As vice-president, I lead discussions on global historical events and facilitate debates on contemporary issues, fostering a deep understanding of the world's political landscape.
+      </p>
     </section>
 
-    <section>
-      <h3>Other experience</h3>
-    <section>
+    <section id="other-experience">
+      <h3>Other Experiences</h3>
+      <p>
+        - Participated in the Art Elective Programme, honing creativity and design skills.<br />
+        - Served in Red Cross Youth for five years, focusing on humanitarian values and leadership.
+      </p>
+    </section>
 
-    <!-- Add more sections for your remaining headers -->
-    
-    <!--
-    The (optional) <footer> HTML element represents content that appears at the bottom of every page in a group of pages.
-    For example, copyright information, licensing terms, contact information.
-    -->
-    <footer></footer>
+    <footer>
+      <p>&copy; 2025 Sakthi Aradhana. All rights reserved.</p>
+    </footer>
   </body>
 </html>
